@@ -1,0 +1,156 @@
+.App {
+  text-align: center;
+}
+
+.productsContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+.productDiv{
+  border: 1px solid gray;
+  width: 300px;
+  height: 320px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.productDiv:hover{
+  box-shadow: 0px 0px 10px gray;
+}
+
+.productPic{
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.moviesContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.moviesDiv:hover{
+  box-shadow: 0px 0px 10px gray;
+}
+
+
+.moviesPic{
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  object-fit: contain;
+}
+
+.moviesDiv{
+  border: 1px solid gray;
+  width: 350px;
+  height: 500px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.underline{
+  text-decoration: none;
+  font-size: 30px;
+  
+}
+
+.underline:hover{
+  text-decoration: underline;
+}
+
+.carsContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.carsPic{
+  border: 1px solid gray;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  object-fit: contain;
+}
+
+.carsDiv:hover{
+  box-shadow: 0px 0px 10px gray;
+}
+
+
+.carsDiv{
+  border: 1px solid gray;
+  width: 350px;
+  height: 650px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color:aqua;
+}
+
+.animalsContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+.animalsDiv{
+  border: 1px solid gray;
+  width: 300px;
+  height: 560px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.animalsDiv:hover{
+  box-shadow: 0px 0px 10px gray;
+}
+
+.animalsPic{
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  object-fit: contain;
+}
+
+.jeweleryContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+.jeweleryDiv{
+  border: 1px solid gray;
+  width: 300px;
+  height: 350px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.jeweleryDiv:hover{
+  box-shadow: 0px 0px 10px gray;
+}
+
+.jeweleryPic{
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  object-fit: contain;
+}
+
